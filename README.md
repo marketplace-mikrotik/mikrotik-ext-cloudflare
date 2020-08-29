@@ -1,8 +1,8 @@
-# Information / Информация
+# Information
 
 Скрипт для получения внешнего IP и обновления IP в зоне [Cloudflare](https://cloudflare.com/).
 
-## Install / Установка
+## Install
 
 Во время установки скрипта необходимо выдать ему права и прописать значения некоторых переменных.
 
@@ -35,6 +35,6 @@ curl -X GET "https://api.cloudflare.com/client/v4/zones/API_ZONE_ID/dns_records"
 -H "Content-Type: application/json" | python -mjson.tool
 ```
 
-## Donation / Пожертвование
+## Donation
 
 - [Donation Form](https://donation-form.github.io/)
